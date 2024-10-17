@@ -1,0 +1,42 @@
+Pointers are a variable that stores a memory address
+
+once a Reference is assigned to a variable, it cannot be reassigned to another variable
+
+Pointers can be reassigned to another memory address
+
+99% of the time we do not create pointers to fundamental type variables
+
+use a * operator to create a pointer
+
+the data type of anything tells us how large the memory address is
+and how the data is interpreted by the computer
+
+STACK vs HEAP
+
+Stack is a region of memory that operates on a FILO basis
+
+Heap is a region of memory that operates on a FIFO basis
+
+Stack is faster than the Heap
+
+Stack is limited in size
+variables are destroyed when they go out of scope
+
+The Heap must use the "new" keyword
+and the "delete" keyword to destroy the variable
+
+The Heap is slower than the Stack
+that is because the Heap is usually not near the Cache
+
+Ownership is critical in the Heap
+even if we have 20 pointers to the same memory address
+the owner's job is to delete the memory when it is no longer needed
+
+The Heap is used for dynamic memory allocation
+
+A stack overflow happens if a varible on the stack is called to 
+many times
+
+A memory leak happens when a variable on the heap is not deleted
+and, for example, a for loop is called 1000 times. 
+

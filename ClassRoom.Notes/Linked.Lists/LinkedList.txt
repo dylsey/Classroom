@@ -1,0 +1,9 @@
+adding and removing w/ Linked List is fast
+
+Finding things in a linked list is slow
+
+Linked List is a good choice when you need to add and remove things frequently
+
+it uses pointer to connect the data in the data structure
+
+you need a "node" struct to hold the data and the pointer
