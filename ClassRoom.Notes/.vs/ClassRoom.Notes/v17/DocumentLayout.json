@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\DEV\\C\u002B\u002B\\CPSC 2376\\Classroom\\ClassRoom.Notes\\",
+  "WorkspaceRootPath": "C:\\Dev\\C\u002B\u002B\\CPSC 2376\\Classroom\\ClassRoom.Notes\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{68B1E494-2F83-4ABA-A720-8883B9A11E84}|Linked.Lists\\Linked.Lists.vcxproj|C:\\DEV\\C\u002B\u002B\\CPSC 2376\\Classroom\\ClassRoom.Notes\\Linked.Lists\\LinkedListSource.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{68B1E494-2F83-4ABA-A720-8883B9A11E84}|Linked.Lists\\Linked.Lists.vcxproj|C:\\Dev\\C\u002B\u002B\\CPSC 2376\\Classroom\\ClassRoom.Notes\\Linked.Lists\\LinkedListSource.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{68B1E494-2F83-4ABA-A720-8883B9A11E84}|Linked.Lists\\Linked.Lists.vcxproj|solutionrelative:Linked.Lists\\LinkedListSource.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -13,7 +13,7 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 308,
+          "DockedWidth": 108,
           "SelectedChildIndex": 6,
           "Children": [
             {
@@ -44,11 +44,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "LinkedListSource.cpp",
-              "DocumentMoniker": "C:\\DEV\\C\u002B\u002B\\CPSC 2376\\Classroom\\ClassRoom.Notes\\Linked.Lists\\LinkedListSource.cpp",
+              "DocumentMoniker": "C:\\Dev\\C\u002B\u002B\\CPSC 2376\\Classroom\\ClassRoom.Notes\\Linked.Lists\\LinkedListSource.cpp",
               "RelativeDocumentMoniker": "Linked.Lists\\LinkedListSource.cpp",
-              "ToolTip": "C:\\DEV\\C\u002B\u002B\\CPSC 2376\\Classroom\\ClassRoom.Notes\\Linked.Lists\\LinkedListSource.cpp",
+              "ToolTip": "C:\\Dev\\C\u002B\u002B\\CPSC 2376\\Classroom\\ClassRoom.Notes\\Linked.Lists\\LinkedListSource.cpp",
               "RelativeToolTip": "Linked.Lists\\LinkedListSource.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-10-16T23:24:41.859Z",
               "EditorCaption": ""

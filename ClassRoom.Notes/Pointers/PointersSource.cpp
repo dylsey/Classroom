@@ -55,6 +55,9 @@ int main()
 	std::cout << "control = &ptr3: " << control << std::endl;
 	**control = 15;
 	std::cout << "**control: " << **control << std::endl;
+	std::cout << std::endl; 
+	std::cout << "new values: " << std::endl;
+
 
 	std::cout << x << " ";
 	std::cout << y <<" ";
@@ -63,7 +66,38 @@ int main()
 	std::cout << *ptr2 << " ";
 	std::cout << *ptr3 << " ";
 
-	return 0;
+	int foo{ 7 };
+	int bar{ 11 };
+	int* smurf{ &foo };
+	int** chief{ &smurf };
+
+	int snafu{ 5 };
+	int* reliable{ *chief };
+	*chief = &snafu;
+	**chief = 20; 
+	chief = &reliable; 
+	std::cout << "foo: " << foo << std::endl;
+	std::cout << "bar: " << bar << std::endl;
+	std::cout << "smurf: " << smurf << std::endl;
+	std::cout << "chief: " << chief << std::endl;
+	std::cout << "snafu: " << snafu << std::endl;
+	std::cout << "reliable: " << reliable << std::endl;
+
+
+
+	std::cout << "foo: " << foo << std::endl;
+	std::cout << "bar: " << bar << std::endl;
+	std::cout << "*reliable: " << *reliable << std::endl;
+	std::cout << "*smurf: " << *smurf << std::endl;
+	std::cout << "**chief: " << **chief << std::endl;
+	
+
+
+
+
+
+
+
 }
 //int x{ 3 };
 //int& y{ x };

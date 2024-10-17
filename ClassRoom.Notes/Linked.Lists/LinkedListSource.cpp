@@ -2,16 +2,36 @@
 #include <string>
 #include <vector>
 
-struct node
+struct Node
 {
-	int data = 5; // data
-	node* next = nullptr; // pointer to next node
-	node* tempNode = new node;
-	tempNode->data = 4;
-	tempNode->next = head->next->next;
-	head->next = tempNode;
+	int data;
+	Node* next;
+
 };
+
+
 int main()
 {
-	
+
+	//Consider the singly linked list of ints represented by the following diagram:
+
+	//head -> 5 -> 3 -> 7 -> 12 -> 10 -> nullptr
+
+	//	Fill in the boxes below for what the list would look like after the following lines of code are executed :
+	// Node * prevNode = head; while (prevNode->next->next != nullptr) { prevNode = prevNode->next; }  prevNode->next->next = head;  head = prevNode->next;  prevNode->next = nullptr;
+
+
+	Node* head;
+	head = new Node; 
+	head->next = 0; 
+	head->data = 5;
+
+	Node* prevNode = head; 
+	while (prevNode->next->next != nullptr) 
+	{
+		prevNode = prevNode->next;
+	}  
+	prevNode->next->next = head;
+	head = prevNode->next;
+	prevNode->next = nullptr;
 }
